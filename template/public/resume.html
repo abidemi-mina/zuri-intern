@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +18,12 @@
     </style>
     
 </head>
+<link rel="stylesheet" href="{% static 'public/fonts/flaticon/font/flaticon.css' %}">
 
     <header>
     </header>
 <body>
-    <img src="" alt="">
+    <img src="{% static '/admin/img/zuri logo.png' %}" alt="">
       <p>
         To Create your resume , you have to fill in all the form below . thank you
       </p>
