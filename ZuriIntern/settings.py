@@ -28,7 +28,9 @@ SECRET_KEY = 'ts@=mc$x8oduminrel__cxgnh$sg9(9xv3mqzd8(7ca5#fk9by'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'abbyzuri.herokuapp.com'
+]
 
 
 # Application definition
