@@ -1,1 +1,1 @@
-web: gunicorn ZuriIntern.wsgi 
+web: gunicorn Zurilntern.wsgi 
